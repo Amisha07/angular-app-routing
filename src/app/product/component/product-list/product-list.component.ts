@@ -15,7 +15,7 @@ export class ProductListComponent implements OnInit {
     private dataService: DataService,
 
   ) {
-   // this.globalState.notifyDataChanged("Header.title", this.title);
+  // this.globalState.notifyDataChanged("Header.title", this.title);
   }
 
   getData() {

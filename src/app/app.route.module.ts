@@ -2,7 +2,7 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent }  from './home/home.component';
 import { HelloComponent } from './hello.component';
-
+import { ProductModule } from './product.module';
 
 const appRoutes: Routes = [
     { path: '',  pathMatch: 'full', component: HomeComponent},

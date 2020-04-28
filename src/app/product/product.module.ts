@@ -4,8 +4,8 @@ import { CommonModule }  from '@angular/common';
 
 import { ProductComponent } from './product.component';
 import { ProductRoute }       from './product.route';
-import { ProductListComponent } from './component/product-list';
-import { ProductItemComponent } from './component/product-item';
+import { ProductListComponent } from './component/product-list/product-list.component';
+import { ProductItemComponent } from './component/product-item/product-item.component';
 
 
 @NgModule({
